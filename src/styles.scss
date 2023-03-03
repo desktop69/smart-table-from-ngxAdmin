@@ -1,1 +1,15 @@
+@use 'themes' as *;
+
+@use '@nebular/theme/styles/globals' as *;
+
+@include nb-install() {
+  @include nb-theme-global();
+};
 /* You can add global styles to this file, and also import other style files */
+// @import '~@nebular/theme/styles/themes/default.scss';
+// Import ngx-admin theme styles
+@import '~@nebular/theme/styles/prebuilt/default.css';
+@import '~@nebular/eva-icons/style.css';
+
+// Add your own custom styles here
+
